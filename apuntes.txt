@@ -1,0 +1,19 @@
+git --global user.name/user "nombre"/"email"
+
+git init : iniciar un nuevo repo
+
+Estados de git :
+    1-Untracked("U"): archivo que jamas ha sido manejado por git
+    2-Staged("S"): escenario, lugar temporal donde se guardan los cambios, antes de confirmarlo
+    3-Committed
+    4-Modified("M"): ya esta en el historial
+    5-Deleted
+
+git add nombrearchivo: para agregarlo al Staged
+
+git status: el estado de la rama donde nos encontramos
+
+git commit -m"mensaje": la m es para mandar un mensaje para describir lo que se hizo
+
+git log: para ver el historial de commits
+
