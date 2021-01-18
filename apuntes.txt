@@ -17,3 +17,4 @@ git commit -m"mensaje": la m es para mandar un mensaje para describir lo que se 
 
 git log: para ver el historial de commits
 
+git merge master feature/Dc:
